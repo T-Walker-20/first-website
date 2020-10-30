@@ -1,0 +1,39 @@
+body{
+  font-family: 'Courier', monospace;
+}
+#wrapper{
+  width: 960px;
+  height: 600px;
+  /* ceter it */
+  margin: 0 auto;
+  background-color: red;
+}
+#header{
+  /* % used becasue wrapper defined size */
+  width: 100%;
+  height: 15%;
+}
+#sidebar{
+  width: 15%;
+  height: 85%;
+  background-color: #666666;
+  float: left;
+}
+#main{
+  width: 85%;
+  height: 85%;
+  background-image: url("../images/doghousebg.jpg");
+  background-repeat: no-repeat;
+  float: right;
+}
+a{
+  display: block;
+}
+.comp{
+  float: right;
+  width: 20%;
+  height: 20%;
+}
+h1, a, img, p{
+  padding: 10px;
+}
